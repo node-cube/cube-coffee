@@ -6,8 +6,8 @@
  */
 var path = require('path');
 var fs = require('fs');
-var coffee = require('coffee-script/register');
-
+var coffee = require('coffee-script');
+coffee.register();
 /**
  * Class JsProcessor
  * @param {Object}   cube     the cube instance
