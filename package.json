@@ -2,22 +2,19 @@
   "author": "fish <zhengxinlin@gmail.com> (https://github.com/fishbar)",
   "name": "cube-coffee",
   "description": "the coffee template processor for cube",
-  "version": "0.1.1",
+  "version": "2.0.0",
   "homepage": "https://github.com/node-cube/cube-coffee",
   "repository": {
     "type": "git",
     "url": "https://github.com/node-cube/cube-coffee"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha -r jscoverage --coverage 70,80,95 -R spec test"
-  },
+  "scripts": {},
   "engines": {
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "coffee-script": "1.10.0",
-    "debug": "*"
+    "coffee-script": "1.10.0"
   },
   "devDependencies": {
     "jscoverage": "0.5.x",
