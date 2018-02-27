@@ -2,7 +2,7 @@
   "author": "fish <zhengxinlin@gmail.com> (https://github.com/fishbar)",
   "name": "cube-coffee",
   "description": "the coffee template processor for cube",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "homepage": "https://github.com/node-cube/cube-coffee",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "coffee-script": "1.10.0"
+    "coffeescript": "^2.0.0"
   },
   "devDependencies": {
     "jscoverage": "0.5.x",

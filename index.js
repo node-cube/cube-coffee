@@ -1,11 +1,8 @@
 /*!
  * cube-coffee: index.js
- * Authors  : 剪巽 <jianxun.zxl@taobao.com> (https://github.com/fishbar)
- * Create   : 2015-11-04 20:50:48
- * CopyRight 2015 (c) Alibaba Group
  */
 var path = require('path');
-var coffee = require('coffee-script');
+var coffee = require('coffeescript');
 coffee.register();
 /**
  * Class JsProcessor
